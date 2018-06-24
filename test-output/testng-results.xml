@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49166" started-at="2018-06-24T02:24:45Z" finished-at="2018-06-24T02:25:34Z">
+    <groups>
+      <group name="links">
+        <method signature="TestNGExample.testGmailLinkNavigation()[pri:2, instance:testng.TestNGExample@742aa2]" name="testGmailLinkNavigation" class="testng.TestNGExample"/>
+        <method signature="TestNGExample.testImagesLinkNavigation()[pri:3, instance:testng.TestNGExample@742aa2]" name="testImagesLinkNavigation" class="testng.TestNGExample"/>
+      </group> <!-- links -->
+    </groups>
+    <test name="Default test" duration-ms="49166" started-at="2018-06-24T02:24:45Z" finished-at="2018-06-24T02:25:34Z">
+      <class name="testng.TestNGExample">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2018-06-24T02:24:45Z" finished-at="2018-06-24T02:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeMethod" is-config="true" duration-ms="5479" started-at="2018-06-24T02:24:45Z" finished-at="2018-06-24T02:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchFeatureUsingDataProvider(java.lang.String)[pri:0, instance:testng.TestNGExample@742aa2]" name="testSearchFeatureUsingDataProvider" duration-ms="1588" started-at="2018-06-24T02:24:51Z" data-provider="keyword" finished-at="2018-06-24T02:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFeatureUsingDataProvider -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="afterMethod" is-config="true" duration-ms="2314" started-at="2018-06-24T02:24:52Z" finished-at="2018-06-24T02:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeMethod" is-config="true" duration-ms="4735" started-at="2018-06-24T02:24:55Z" finished-at="2018-06-24T02:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchFeatureUsingDataProvider(java.lang.String)[pri:0, instance:testng.TestNGExample@742aa2]" name="testSearchFeatureUsingDataProvider" duration-ms="2503" started-at="2018-06-24T02:24:59Z" data-provider="keyword" finished-at="2018-06-24T02:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFeatureUsingDataProvider -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="afterMethod" is-config="true" duration-ms="2314" started-at="2018-06-24T02:25:02Z" finished-at="2018-06-24T02:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeMethod" is-config="true" duration-ms="4745" started-at="2018-06-24T02:25:04Z" finished-at="2018-06-24T02:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSearchFeature(java.lang.String)[pri:0, instance:testng.TestNGExample@742aa2]" name="testSearchFeature" duration-ms="2199" started-at="2018-06-24T02:25:09Z" finished-at="2018-06-24T02:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFeature -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="afterMethod" is-config="true" duration-ms="2331" started-at="2018-06-24T02:25:11Z" finished-at="2018-06-24T02:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeMethod" is-config="true" duration-ms="4696" started-at="2018-06-24T02:25:13Z" finished-at="2018-06-24T02:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testPageTitle()[pri:1, instance:testng.TestNGExample@742aa2]" name="testPageTitle" duration-ms="8" started-at="2018-06-24T02:25:18Z" finished-at="2018-06-24T02:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="afterMethod" is-config="true" duration-ms="107" started-at="2018-06-24T02:25:18Z" finished-at="2018-06-24T02:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeMethod" is-config="true" duration-ms="4666" started-at="2018-06-24T02:25:18Z" finished-at="2018-06-24T02:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGmailLinkNavigation()[pri:2, instance:testng.TestNGExample@742aa2]" name="testGmailLinkNavigation" duration-ms="3651" started-at="2018-06-24T02:25:23Z" depends-on-methods="testng.TestNGExample.testPageTitle" finished-at="2018-06-24T02:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGmailLinkNavigation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="afterMethod" is-config="true" duration-ms="120" started-at="2018-06-24T02:25:26Z" finished-at="2018-06-24T02:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="beforeMethod" is-config="true" duration-ms="4645" started-at="2018-06-24T02:25:27Z" finished-at="2018-06-24T02:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testImagesLinkNavigation()[pri:3, instance:testng.TestNGExample@742aa2]" name="testImagesLinkNavigation" duration-ms="948" started-at="2018-06-24T02:25:31Z" depends-on-methods="testng.TestNGExample.testPageTitle" finished-at="2018-06-24T02:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImagesLinkNavigation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.TestNGExample@742aa2]" name="afterMethod" is-config="true" duration-ms="2072" started-at="2018-06-24T02:25:32Z" finished-at="2018-06-24T02:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testng.TestNGExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

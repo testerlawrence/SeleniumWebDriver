@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite_1">
+	<test name="Test_1">
+	
+	<parameter name="searchText" value="abc"/>
+
+		<!-- <groups> <run> <include name = "links" /> </run> </groups> -->
+
+		<groups>
+			<define name="all">
+				<include name="links" />
+				<include name="ui" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="testng.TestNGExample" />
+			<class name="testng.UITest" />
+		</classes>
+
+	</test>
+</suite>
